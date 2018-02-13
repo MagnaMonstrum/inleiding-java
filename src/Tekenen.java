@@ -23,9 +23,10 @@ public class Tekenen extends Applet {
         g.setColor(Color.black);
         g.drawString("Gevulde rechthoek met ovaal",230,180);
 
-        g.setColor(Color.magenta);
+        g.setColor(Color.black);
         g.drawOval(220, 60, 180,100);
 
+        g.setColor(Color.magenta);
         g.fillOval(220, 200,180,100);
         g.setColor(Color.black);
         g.drawString("Gevulde ovaal",270,320 );
@@ -37,8 +38,8 @@ public class Tekenen extends Applet {
         g.fillArc(420,60,180,100,0,45);
 
         g.setColor(Color.black);
-        g.drawOval(450,200, 100,100);
-        g.drawString("Cirkel", 480,320);
+        g.drawOval(460,200, 100,100);
+        g.drawString("Cirkel", 495,320);
 
 
 
