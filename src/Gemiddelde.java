@@ -9,7 +9,7 @@ public class Gemiddelde extends Applet {
     double cijfer2;
     double cijfer3;
     double gemiddelde;
-    int a;
+    int gemiddeldeX10;
 
 
 
@@ -21,18 +21,14 @@ public class Gemiddelde extends Applet {
         cijfer3 = 6.9;
         gemiddelde = (cijfer1 + cijfer2 + cijfer3) / 3;
         gemiddelde*=10;
-        a = (int) gemiddelde;
-        gemiddelde = a;
+        gemiddeldeX10 = (int) gemiddelde;
+        gemiddelde = gemiddeldeX10;
         gemiddelde/=10;
 
     }
 
     public void paint(Graphics g) {
         g.drawString("Het gemiddelde is: " + gemiddelde,50,50);
-
-
-
-
 
 
     }
