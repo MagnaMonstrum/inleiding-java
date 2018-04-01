@@ -3,10 +3,13 @@ import java.applet.*;
 
 public class Tekenen extends Applet {
 
+
     public void init() {
+
     }
 
     public void paint(Graphics g) {
+
 
         g.drawLine(20,20,200,20);
         g.drawString("Lijn",100,40 );
