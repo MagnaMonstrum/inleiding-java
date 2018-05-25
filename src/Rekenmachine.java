@@ -15,7 +15,7 @@ public class Rekenmachine extends Applet {
     Double getal2;
     String a;
     String b;
-    
+
 
 
     public void init() {
